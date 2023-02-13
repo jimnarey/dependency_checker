@@ -1,4 +1,13 @@
 #!/usr/env python3
 
-def test_func():
-    return None
+import json
+import requests
+
+CABINET_OFFICE_ORG_URL = 'https://api.github.com/orgs/cabinetoffice/repos'
+
+def get_repos(url):
+    return requests.get(url).json()
+
+
+
+

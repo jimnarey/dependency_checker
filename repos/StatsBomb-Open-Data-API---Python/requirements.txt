@@ -1,6 +1,0 @@
-https://www.youtube.com/watch?v=ThU13tikHQw&ab_channel=AdityaThakur - setting up Python libraries
-
-import pandas as pd
-from pandas import json_normalize
-import requests
-import random
